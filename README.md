@@ -17,3 +17,6 @@ git分支和pr协作实验
 3. 使用 Git 提交本地修改。
 4. 将功能分支推送到 GitHub。
 5. 创建 Pull Request，请求 A 进行代码审核。
+6. A 审核通过后，将功能分支合并到 main 分支。
+7. A 和 B 分别执行 git pull origin main，同步最新代码。
+8. 使用 git log --oneline --graph --all 查看合并后的提交历史。
